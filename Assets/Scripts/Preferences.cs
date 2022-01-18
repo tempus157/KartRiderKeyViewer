@@ -1,17 +1,27 @@
+using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class Preferences : MonoBehaviour {
-    private static readonly Color SelectionColor =
-        new Color(0.5411765f, 0.7058824f, 0.972549f);
-
-    private static readonly Color DeselectionColor = Color.white;
-
     public void SelectTab(Image image) {
-        image.color = SelectionColor;
+        image.color = new Color(0.5411765f, 0.7058824f, 0.972549f);
     }
 
     public void DeselectTab(Image image) {
-        image.color = DeselectionColor;
+        image.color = Color.white;
+    }
+
+    public void GetControlInput(TextMeshProUGUI text) {
+        text.text = "-";
+        StartCoroutine(Test());
+
+
+        IEnumerator Test() {
+            while (true) {
+                Debug.Log(Event.current.keyCode);
+                yield return null;
+            }
+        }
     }
 }

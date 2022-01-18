@@ -10,7 +10,7 @@ public class KeyViewer : MonoBehaviour {
 
     private void Update() {
         foreach (var key in keys) {
-            if (NativeInput.KeyDown(key.KeyCode)) {
+            if (RawInput.KeyDown(key.KeyCode)) {
                 key.OnKeyDown();
             } else {
                 key.OnKeyUp();

@@ -1,6 +1,6 @@
 using System.Runtime.InteropServices;
 
-public static class NativeInput {
+public static class RawInput {
     [DllImport("user32.dll")]
     private static extern short GetAsyncKeyState(int keyCode);
 
