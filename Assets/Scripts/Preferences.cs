@@ -13,6 +13,7 @@ public class Preferences : MonoBehaviour {
         image.color = Color.white;
     }
 
+    // Apply to Key instances, Save with PlayerPrefs
     public void SetControl(TextMeshProUGUI text) {
         IEnumerator Coroutine() {
             text.text = "-";
