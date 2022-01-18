@@ -4,7 +4,6 @@ public class KeyViewer : MonoBehaviour {
     private Key[] keys;
 
     private void Awake() {
-        Application.targetFrameRate = 60;
         keys = GetComponentsInChildren<Key>();
     }
 
