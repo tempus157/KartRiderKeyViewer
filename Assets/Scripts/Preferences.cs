@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using TMPro;
 using UnityEngine;
@@ -12,16 +13,18 @@ public class Preferences : MonoBehaviour {
         image.color = Color.white;
     }
 
-    public void GetControlInput(TextMeshProUGUI text) {
-        text.text = "-";
-        StartCoroutine(Test());
+    public void SetControl(TextMeshProUGUI text) {
+        IEnumerator Coroutine() {
+            text.text = "-";
+            var keyCode = RawKeyCode.None;
 
-
-        IEnumerator Test() {
-            while (true) {
-                Debug.Log(Event.current.keyCode);
-                yield return null;
-            }
+            yield return new WaitWhile(() => {
+                keyCode = RawInput.CurrentKey();
+                return keyCode == RawKeyCode.None;
+            });
+            text.text = keyCode.ToString();
         }
+
+        StartCoroutine(Coroutine());
     }
 }

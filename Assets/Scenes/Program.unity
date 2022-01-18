@@ -1602,7 +1602,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 156906119}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 551912678}
+        m_TargetAssemblyTypeName: Preferences, Assembly-CSharp
+        m_MethodName: SetControl
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1464313795}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &156906119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2887,7 +2899,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 551912678}
         m_TargetAssemblyTypeName: Preferences, Assembly-CSharp
-        m_MethodName: GetControlInput
+        m_MethodName: SetControl
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 970122085}
@@ -4196,7 +4208,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 594482675}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 551912678}
+        m_TargetAssemblyTypeName: Preferences, Assembly-CSharp
+        m_MethodName: SetControl
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1350579663}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &594482675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5523,7 +5547,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 937435573}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 551912678}
+        m_TargetAssemblyTypeName: Preferences, Assembly-CSharp
+        m_MethodName: SetControl
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1001633351}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &937435573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5645,7 +5681,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 955685642}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 551912678}
+        m_TargetAssemblyTypeName: Preferences, Assembly-CSharp
+        m_MethodName: SetControl
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1338230453}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &955685642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6816,7 +6864,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1166240138}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 551912678}
+        m_TargetAssemblyTypeName: Preferences, Assembly-CSharp
+        m_MethodName: SetControl
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 997386719}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1166240138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7421,7 +7481,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1271039175}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 551912678}
+        m_TargetAssemblyTypeName: Preferences, Assembly-CSharp
+        m_MethodName: SetControl
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2052359753}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1271039175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9360,7 +9432,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1538975765}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 551912678}
+        m_TargetAssemblyTypeName: Preferences, Assembly-CSharp
+        m_MethodName: SetControl
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 295369722}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TextMeshProUGUI, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1538975765
 MonoBehaviour:
   m_ObjectHideFlags: 0

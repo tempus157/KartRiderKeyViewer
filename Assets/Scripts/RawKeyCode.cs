@@ -1,4 +1,5 @@
 public enum RawKeyCode {
+    None,
     Backspace = 0x08,
     Tab,
     CapsLock = 0x14,
