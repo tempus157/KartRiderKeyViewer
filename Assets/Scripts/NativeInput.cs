@@ -7,8 +7,4 @@ public static class NativeInput {
     public static bool KeyDown(int key) {
         return (GetAsyncKeyState(key) & 0x8000) != 0;
     }
-
-    public static bool KeyUp(int key) {
-        return (GetAsyncKeyState(key) & 0x8000) == 0;
-    }
 }
